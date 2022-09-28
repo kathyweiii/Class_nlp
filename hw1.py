@@ -1,8 +1,6 @@
 from cProfile import label
 import streamlit as st
-from textblob import TextBlob
 from snownlp import SnowNLP
-import time
 
 # audio_file = open('myaudio.ogg', 'rb')
 # audio_bytes = audio_file.read()
