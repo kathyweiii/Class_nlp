@@ -1,0 +1,18 @@
+Collecting pytest-cov
+  Downloading pytest_cov-4.0.0-py3-none-any.whl (21 kB)
+Collecting coverage[toml]>=5.2.1
+  Downloading coverage-6.4.4-cp37-cp37m-macosx_10_9_x86_64.whl (184 kB)
+Requirement already satisfied: pytest>=4.6 in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from pytest-cov) (5.3.5)
+Collecting tomli
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Requirement already satisfied: py>=1.5.0 in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from pytest>=4.6->pytest-cov) (1.8.1)
+Requirement already satisfied: packaging in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from pytest>=4.6->pytest-cov) (21.3)
+Requirement already satisfied: attrs>=17.4.0 in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from pytest>=4.6->pytest-cov) (19.3.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from pytest>=4.6->pytest-cov) (8.2.0)
+Requirement already satisfied: pluggy<1.0,>=0.12 in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from pytest>=4.6->pytest-cov) (0.13.1)
+Requirement already satisfied: wcwidth in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from pytest>=4.6->pytest-cov) (0.1.8)
+Requirement already satisfied: importlib-metadata>=0.12 in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from pytest>=4.6->pytest-cov) (2.0.0)
+Requirement already satisfied: zipp>=0.5 in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from importlib-metadata>=0.12->pytest>=4.6->pytest-cov) (2.2.0)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /Users/kathy/opt/anaconda3/lib/python3.7/site-packages (from packaging->pytest>=4.6->pytest-cov) (2.4.6)
+Installing collected packages: tomli, coverage, pytest-cov
+Successfully installed coverage-6.4.4 pytest-cov-4.0.0 tomli-2.0.1
