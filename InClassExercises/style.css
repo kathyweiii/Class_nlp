@@ -1,1 +1,40 @@
-h1 {color: red;}
+h1{color: white;
+        font-size: 2em;
+        background-color: red;
+        display: flex;
+        justify-content: center; 
+        font-family:標楷體;
+        margin: 10px;
+        height: 1.2em;
+        align-items: center; 
+    }
+.bg {
+position: fixed;
+top: 50;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: -20;
+}
+.bg img {
+    min-height: 100%;
+    width: 100%; 
+    opacity:0.5;
+}
+@media screen and (max-width: 1000px) {
+    img.bg {
+        left: 50%;
+        margin-left: -500px;
+    }
+}
+
+.content { color: red;
+    font-size: 1.5em;
+    line-height: 38px;
+    display: flex;
+    justify-content: center; 
+    z-index: 2;
+    font-family: 標楷體;
+    
+
+}
